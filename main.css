@@ -1,0 +1,181 @@
+.layout{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10 10 10px;
+    width: 300px;
+    background-color: #A0346C;
+  }
+  
+  .grid-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 120px 320px;
+    grid-template-rows: 120px 120px;
+  }
+
+  .circular_image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 20px;
+    align-self: center;
+  }
+  .circular_image img{
+    width:100%;
+  }
+
+  .big-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 50px;
+    color: whitesmoke;
+    align-self: center;
+  }
+
+  .big-text-grid {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 50px;
+    color: black;
+    align-self: center;
+  }
+  
+  .medium-text {
+    font-size: 18px;
+    margin-left: 50px;
+    color: whitesmoke;
+  }
+
+  .medium-text-grid {
+    font-size: 18px;
+    margin-left: 50px;
+    color: black;
+  }
+  
+  .small-text {
+    font-size: 12px;
+    color: whitesmoke;
+    margin-right: 30px;
+    margin-left: 50px;
+  }
+
+  .small-text-grid {
+    font-size: 12px;
+    color: black;
+    margin-right: 30px;
+    margin-left: 50px;
+  }
+
+  .dash {
+    width: 45px;
+    border-bottom: 3px solid whitesmoke;
+  }
+
+  .dash-grid {
+    width: 45px;
+    border-bottom: 3px solid black;
+    margin-left: 50px;
+  }
+
+  .languages{
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+
+  .languages__item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: whitesmoke;
+  }
+
+  .language-level{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    align-items: center;
+  }
+
+  .circle{
+    border-radius: 50%;
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+  }
+
+  .inactive{
+    background-color: hsl(0, 0%, 50%);
+  }
+
+  .my_name{
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 50px;
+  }
+
+  .my-job-title{
+    margin-left: 50px;
+  }
+
+  .right-column{
+    width: 500px;
+    background-color: #DCDCDC;
+  }
+
+  .grid-item{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .company{
+    margin-top: 10px;
+  }
+
+  .job-description{
+    margin-top: 10px;
+  }
+
+  .job {
+    font-weight: 700;
+  }
+
+  .skills-grid{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 20px 20px;
+    column-gap: 50px;
+  }
+
+  .skill__item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+  }
+
+  .skill__level{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .date{
+    margin-left: 50px;
+  }
+
+  .company{
+    margin-left: 50px;
+  }
+  
